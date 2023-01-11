@@ -1,7 +1,7 @@
-#Tic Tac Toe Game Python
+"""Tic Tac Toe Game Python"""
 
 import random
-from array import*
+from array import* #array
 import copy
 
 print()   # Welcome Message.
@@ -65,19 +65,19 @@ def makeMove2D(board2D , letter , move):
     elif move==2:
         board2D[0][1]=letter
     elif move==3:
-         board2D[0][2]=letter
+        board2D[0][2]=letter
     elif move==4:
-         board2D[1][0]=letter
+        board2D[1][0]=letter
     elif move==5:
-         board2D[1][1]=letter 
+        board2D[1][1]=letter 
     elif move==6:
-         board2D[1][2]=letter
+        board2D[1][2]=letter
     elif move==7:
-         board2D[2][0]=letter
+        board2D[2][0]=letter
     elif move==8:
-         board2D[2][1]=letter
+        board2D[2][1]=letter
     elif move==9:
-         board2D[2][2]=letter
+        board2D[2][2]=letter
 
 
 # This function returns True if that player has won.
@@ -114,21 +114,21 @@ def isSpaceFree2D(board2D, move):
     if move==1:
         return board2D[0][0]==' '
     elif move==2:
-       return board2D[0][1]==' '
+        return board2D[0][1]==' '
     elif move==3:
-       return board2D[0][2]==' '
+        return board2D[0][2]==' '
     elif move==4:
-       return board2D[1][0]==' '
+        return board2D[1][0]==' '
     elif move==5:
-       return board2D[1][1]==' '
+        return board2D[1][1]==' '
     elif move==6:
-       return board2D[1][2]==' '
+        return board2D[1][2]==' '
     elif move==7:
-       return board2D[2][0]==' '
+        return board2D[2][0]==' '
     elif move==8:
-       return board2D[2][1]==' '
+        return board2D[2][1]==' '
     elif move==9:
-       return board2D[2][2]==' '
+        return board2D[2][2]==' '
    
 # This Function will return the box number choose by the player (After checking conditions).
 
@@ -219,7 +219,7 @@ def computerMove2D(board2D, computerSymbol):
         if super_Move == 1: 
             move = randomMoveFromList2D(board2D, [9])
             if move != None:         
-             return randomMoveFromList2D(board2D, [2, 4, 6, 8])
+                return randomMoveFromList2D(board2D, [2, 4, 6, 8])
             
             return randomMoveFromList2D
 
