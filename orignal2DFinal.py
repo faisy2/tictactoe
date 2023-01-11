@@ -13,13 +13,13 @@ user = input("Please enter your Name: ").capitalize()
 
 
 
-def printBoard2D(board2D):
+def printBoard2D(board2d):
     # "theBoard" is a list of 10 strings representing the board (0 not included)
-        print(' ' + str(board2D[0][0]) + ' | ' + str(board2D[0][1]) + ' | ' + str(board2D[0][2])) 
-        print('--- --- ---')
-        print(' ' + str(board2D[1][0]) + ' | ' + str(board2D[1][1]) + ' | ' +str(board2D[1][2]))
-        print('--- --- ---')
-        print(' ' + str(board2D[2][0]) + ' | ' + str(board2D[2][1]) + ' | ' + str(board2D[2][2])) 
+    print(' ' + str(board2d[0][0]) + ' | ' + str(board2d[0][1]) + ' | ' + str(board2d[0][2])) 
+    print('--- --- ---')
+    print(' ' + str(board2d[1][0]) + ' | ' + str(board2d[1][1]) + ' | ' +str(board2d[1][2]))
+    print('--- --- ---')
+    print(' ' + str(board2d[2][0]) + ' | ' + str(board2d[2][1]) + ' | ' + str(board2d[2][2])) 
 # This Function decides the symbols of player and the computer.
 def userSymbol():
     letter = ''
