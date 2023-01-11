@@ -7,6 +7,7 @@ import copy
 print()   # Welcome Message.
 print("DEVELOPED BY Hamza Shaukat(BCT-008)")
 print("converted the code from 1D array to 2D array by Faisal Mahmood")
+print("this project is for testing")
 print()
 user = input("Please enter your Name: ").capitalize()
 
