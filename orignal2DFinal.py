@@ -26,8 +26,6 @@ def userSymbol():
     while not (letter == "X" or letter == "O" ):
         print()
         letter =input("Choose what you want to be (X or O)? : ").upper()
-        
-
     if letter == "X":
         return ["X","O"] 
     else:
